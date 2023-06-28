@@ -1,0 +1,261 @@
+/* to make the ssit logo and before-title in different lines */
+.navbar{
+    display:none;
+}
+#mob-navbar{
+    position:absolute;
+    /* right:6px;
+    top:6px; */
+    margin:2rem;
+}
+#overlay a{
+    font-size: 1rem;
+}
+
+.homeParent{
+    padding:0;
+    margin:0;
+    height:auto;
+    background-position:-100px;
+}
+/* positioning of ssit logo */
+section{
+    display: block;
+}
+.ssit-logo{
+    padding:0;
+    margin:0;
+    width: fit-content;
+    margin-top:2rem;
+    margin-left:1rem;
+}
+.ssit-logo img{
+    float:none;
+    height:4rem;
+}
+.h4c-logo{
+    display:none;
+}
+.main-heading{
+    font-size: 32px;
+    margin:2rem;
+}
+/* positioning and styling of title and before title */
+.heading{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width:fit-content; */
+
+}
+.before-title{
+    position: relative;
+    letter-spacing: 0.3rem;
+    margin:0;
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+    padding:0;
+    font-size:16px;
+    display:flex;
+    justify-content: center;
+    z-index: -1;
+    /* display:none; */
+}
+.h4ctitle{
+    width:18rem;
+    height:auto;
+    margin:0;
+    /* display: none; */
+}
+
+/* displaying mobile h4c logo and hiding desktop logo */
+.wrapper{
+    justify-content: center;
+    padding:0;
+    margin:0;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h4cmob{
+    display: block;
+    margin:0;
+    height:10rem;
+    margin-bottom:0.5rem;
+}
+.h4cdesk{
+    display:none;
+}
+/* styling buttons */
+.flexbox1{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: justify;
+    
+}
+.links{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+}
+.links li{
+    border:none;
+    background-color:#EB1616;
+    color:white;
+    /* background-color:#ffeded; */
+    /* margin:0.5rem; */
+}
+.links li a{
+    color:white;
+}
+.tlink a{
+    align-items: center; justify-content: end;
+    color:white;
+}
+/* removing desktop timer */
+.timer-mob{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    color:white;
+    margin:1rem;
+}
+.beginText{
+    margin-bottom:1rem;
+    font-size: 2rem;
+}
+.timer-mob th{
+    font-size:1.2rem;   
+    text-align: center;
+    padding:0.5rem;
+}
+.timer-mob td{
+    text-align: center;
+    font-size: 3rem;
+    font-family: monospace;
+}
+.timer-desk{
+    display:none;
+}
+.flexbox1{
+    flex-direction: column;
+}
+.tlink a{
+    font-size: small;
+    padding:0.5rem;
+    margin:0;
+    color:white;
+}
+li.tlink{
+    padding-left:0.5rem;
+    color:white;
+}
+.info{
+    margin:0;
+    width:auto;
+}
+.card{
+    display:block;
+    flex:none;
+    height:auto;
+    width:20rem;
+    /* margin-bottom:1rem; */
+    margin-bottom: 2rem;
+    padding:1rem;
+    font-size: small;
+    text-align: justify;
+    opacity:100%;
+    box-shadow: 5px 5px #eb1616a2;
+}
+.card1-container{
+    width:70vw;
+}
+.card1-head{
+    font-size:1.5rem;
+}
+
+/* sponsors section */
+.sponsors{
+    height:auto;
+}
+.sponsors .wrapper{
+    min-height:100vh;
+}
+.sponsor-grp{
+    height:auto;
+}
+.sp-logo{
+    margin:2rem;
+}
+.group{
+    flex-direction: column;
+    margin:0;
+}
+.sponsor-title{
+    border:2px solid #EB1616;
+}
+.sponsor-card{
+    margin:2rem;
+}
+.sponsor-img{
+    flex-direction: column;
+}
+.sponsor-img img{
+    height:50px;
+}
+
+
+.group3{
+    margin:0;
+}
+.con-info{
+    flex-direction: column;
+    font-size:small;
+}
+.logo{
+    margin:1rem;
+}
+.navigation-mob{
+    display: block;
+}
+.container{
+    margin-bottom:1rem;
+}
+.contact .wrapper{
+    min-height:100vh;
+    justify-content: center;
+}
+.contact .main-heading{
+    display:none;
+}
+.contact-menu{
+    display:block;
+    margin:0;
+}
+.contact-menu li{
+    margin:0.5rem;
+    list-style-type: none;
+}
+.contact-menu a{
+    text-decoration: none;
+    color:#ffeded;
+    font-size: small;
+}
+
+.faq-label {
+    width:90vw;
+}
+.faq-answer{
+    width:90vw;
+    /* margin:0; */
+}

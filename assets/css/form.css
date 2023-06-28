@@ -1,0 +1,18 @@
+.courses{
+    font-size: 1rem;
+    margin: 0 0 12px 0px;
+    padding:10px;
+}
+input[type=text], input[type=radio], input[type=email]{
+  width: 100%;
+  /* padding: 15px; */
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 1rem;
+}
+
+th{
+  padding: 10px;
+}
